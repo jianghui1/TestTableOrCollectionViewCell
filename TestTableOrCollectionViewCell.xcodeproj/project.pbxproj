@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360A115B25232BCC00A9E649 /* XibCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A115925232BCC00A9E649 /* XibCollectionViewCell.m */; };
+		360A115C25232BCC00A9E649 /* XibCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360A115A25232BCC00A9E649 /* XibCollectionViewCell.xib */; };
+		360A116225232C3000A9E649 /* TestCollectionViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A116125232C3000A9E649 /* TestCollectionViewCell1.m */; };
+		360A116825232C4000A9E649 /* TestCollectionViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A116725232C4000A9E649 /* TestCollectionViewCell2.m */; };
+		360A116E25232C4D00A9E649 /* TestCollectionViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A116D25232C4D00A9E649 /* TestCollectionViewCell3.m */; };
+		360A117425232C5900A9E649 /* TestCollectionViewCell4.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A117325232C5900A9E649 /* TestCollectionViewCell4.m */; };
+		360A117A25232C6300A9E649 /* TestCollectionViewCell5.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A117925232C6300A9E649 /* TestCollectionViewCell5.m */; };
 		364B2AB525230C090057C47F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2AB425230C090057C47F /* AppDelegate.m */; };
 		364B2AB825230C090057C47F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2AB725230C090057C47F /* SceneDelegate.m */; };
 		364B2ABB25230C090057C47F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2ABA25230C090057C47F /* ViewController.m */; };
@@ -16,6 +23,15 @@
 		364B2AC625230C0A0057C47F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2AC525230C0A0057C47F /* main.m */; };
 		364B2AD025230C0A0057C47F /* TestTableOrCollectionViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2ACF25230C0A0057C47F /* TestTableOrCollectionViewCellTests.m */; };
 		364B2ADB25230C0A0057C47F /* TestTableOrCollectionViewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2ADA25230C0A0057C47F /* TestTableOrCollectionViewCellUITests.m */; };
+		364B2AF325230E3E0057C47F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2AF225230E3E0057C47F /* TestTableViewController.m */; };
+		364B2AF925230E550057C47F /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2AF825230E550057C47F /* TestCollectionViewController.m */; };
+		364B2B06252312230057C47F /* XibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B04252312230057C47F /* XibTableViewCell.m */; };
+		364B2B07252312230057C47F /* XibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364B2B05252312230057C47F /* XibTableViewCell.xib */; };
+		364B2B10252315950057C47F /* TestTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B0F252315950057C47F /* TestTableViewCell1.m */; };
+		364B2B16252315A30057C47F /* TestTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B15252315A30057C47F /* TestTableViewCell2.m */; };
+		364B2B1C252315AC0057C47F /* TestTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B1B252315AC0057C47F /* TestTableViewCell3.m */; };
+		364B2B22252315B40057C47F /* TestTableViewCell4.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B21252315B40057C47F /* TestTableViewCell4.m */; };
+		364B2B28252315BD0057C47F /* TestTableViewCell5.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B2B27252315BD0057C47F /* TestTableViewCell5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360A115825232BCC00A9E649 /* XibCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibCollectionViewCell.h; sourceTree = "<group>"; };
+		360A115925232BCC00A9E649 /* XibCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibCollectionViewCell.m; sourceTree = "<group>"; };
+		360A115A25232BCC00A9E649 /* XibCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCollectionViewCell.xib; sourceTree = "<group>"; };
+		360A116025232C3000A9E649 /* TestCollectionViewCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell1.h; sourceTree = "<group>"; };
+		360A116125232C3000A9E649 /* TestCollectionViewCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell1.m; sourceTree = "<group>"; };
+		360A116625232C4000A9E649 /* TestCollectionViewCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell2.h; sourceTree = "<group>"; };
+		360A116725232C4000A9E649 /* TestCollectionViewCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell2.m; sourceTree = "<group>"; };
+		360A116C25232C4D00A9E649 /* TestCollectionViewCell3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell3.h; sourceTree = "<group>"; };
+		360A116D25232C4D00A9E649 /* TestCollectionViewCell3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell3.m; sourceTree = "<group>"; };
+		360A117225232C5900A9E649 /* TestCollectionViewCell4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell4.h; sourceTree = "<group>"; };
+		360A117325232C5900A9E649 /* TestCollectionViewCell4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell4.m; sourceTree = "<group>"; };
+		360A117825232C6300A9E649 /* TestCollectionViewCell5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell5.h; sourceTree = "<group>"; };
+		360A117925232C6300A9E649 /* TestCollectionViewCell5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell5.m; sourceTree = "<group>"; };
 		364B2AB025230C090057C47F /* TestTableOrCollectionViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableOrCollectionViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364B2AB325230C090057C47F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		364B2AB425230C090057C47F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +83,23 @@
 		364B2AD625230C0A0057C47F /* TestTableOrCollectionViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableOrCollectionViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		364B2ADA25230C0A0057C47F /* TestTableOrCollectionViewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableOrCollectionViewCellUITests.m; sourceTree = "<group>"; };
 		364B2ADC25230C0A0057C47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364B2AF125230E3E0057C47F /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		364B2AF225230E3E0057C47F /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		364B2AF725230E550057C47F /* TestCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		364B2AF825230E550057C47F /* TestCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		364B2B03252312230057C47F /* XibTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibTableViewCell.h; sourceTree = "<group>"; };
+		364B2B04252312230057C47F /* XibTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibTableViewCell.m; sourceTree = "<group>"; };
+		364B2B05252312230057C47F /* XibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTableViewCell.xib; sourceTree = "<group>"; };
+		364B2B0E252315950057C47F /* TestTableViewCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell1.h; sourceTree = "<group>"; };
+		364B2B0F252315950057C47F /* TestTableViewCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell1.m; sourceTree = "<group>"; };
+		364B2B14252315A30057C47F /* TestTableViewCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell2.h; sourceTree = "<group>"; };
+		364B2B15252315A30057C47F /* TestTableViewCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell2.m; sourceTree = "<group>"; };
+		364B2B1A252315AC0057C47F /* TestTableViewCell3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell3.h; sourceTree = "<group>"; };
+		364B2B1B252315AC0057C47F /* TestTableViewCell3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell3.m; sourceTree = "<group>"; };
+		364B2B20252315B40057C47F /* TestTableViewCell4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell4.h; sourceTree = "<group>"; };
+		364B2B21252315B40057C47F /* TestTableViewCell4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell4.m; sourceTree = "<group>"; };
+		364B2B26252315BD0057C47F /* TestTableViewCell5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell5.h; sourceTree = "<group>"; };
+		364B2B27252315BD0057C47F /* TestTableViewCell5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +156,36 @@
 				364B2AB725230C090057C47F /* SceneDelegate.m */,
 				364B2AB925230C090057C47F /* ViewController.h */,
 				364B2ABA25230C090057C47F /* ViewController.m */,
+				364B2AF125230E3E0057C47F /* TestTableViewController.h */,
+				364B2AF225230E3E0057C47F /* TestTableViewController.m */,
+				364B2AF725230E550057C47F /* TestCollectionViewController.h */,
+				364B2AF825230E550057C47F /* TestCollectionViewController.m */,
+				364B2B0E252315950057C47F /* TestTableViewCell1.h */,
+				364B2B0F252315950057C47F /* TestTableViewCell1.m */,
+				364B2B14252315A30057C47F /* TestTableViewCell2.h */,
+				364B2B15252315A30057C47F /* TestTableViewCell2.m */,
+				364B2B1A252315AC0057C47F /* TestTableViewCell3.h */,
+				364B2B1B252315AC0057C47F /* TestTableViewCell3.m */,
+				364B2B20252315B40057C47F /* TestTableViewCell4.h */,
+				364B2B21252315B40057C47F /* TestTableViewCell4.m */,
+				364B2B26252315BD0057C47F /* TestTableViewCell5.h */,
+				364B2B27252315BD0057C47F /* TestTableViewCell5.m */,
+				364B2B03252312230057C47F /* XibTableViewCell.h */,
+				364B2B04252312230057C47F /* XibTableViewCell.m */,
+				364B2B05252312230057C47F /* XibTableViewCell.xib */,
+				360A116025232C3000A9E649 /* TestCollectionViewCell1.h */,
+				360A116125232C3000A9E649 /* TestCollectionViewCell1.m */,
+				360A116625232C4000A9E649 /* TestCollectionViewCell2.h */,
+				360A116725232C4000A9E649 /* TestCollectionViewCell2.m */,
+				360A116C25232C4D00A9E649 /* TestCollectionViewCell3.h */,
+				360A116D25232C4D00A9E649 /* TestCollectionViewCell3.m */,
+				360A117225232C5900A9E649 /* TestCollectionViewCell4.h */,
+				360A117325232C5900A9E649 /* TestCollectionViewCell4.m */,
+				360A117825232C6300A9E649 /* TestCollectionViewCell5.h */,
+				360A117925232C6300A9E649 /* TestCollectionViewCell5.m */,
+				360A115825232BCC00A9E649 /* XibCollectionViewCell.h */,
+				360A115925232BCC00A9E649 /* XibCollectionViewCell.m */,
+				360A115A25232BCC00A9E649 /* XibCollectionViewCell.xib */,
 				364B2ABC25230C090057C47F /* Main.storyboard */,
 				364B2ABF25230C0A0057C47F /* Assets.xcassets */,
 				364B2AC125230C0A0057C47F /* LaunchScreen.storyboard */,
@@ -242,6 +318,8 @@
 				364B2AC325230C0A0057C47F /* LaunchScreen.storyboard in Resources */,
 				364B2AC025230C0A0057C47F /* Assets.xcassets in Resources */,
 				364B2ABE25230C090057C47F /* Main.storyboard in Resources */,
+				364B2B07252312230057C47F /* XibTableViewCell.xib in Resources */,
+				360A115C25232BCC00A9E649 /* XibCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +344,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360A116825232C4000A9E649 /* TestCollectionViewCell2.m in Sources */,
 				364B2ABB25230C090057C47F /* ViewController.m in Sources */,
+				364B2B1C252315AC0057C47F /* TestTableViewCell3.m in Sources */,
+				360A116225232C3000A9E649 /* TestCollectionViewCell1.m in Sources */,
 				364B2AB525230C090057C47F /* AppDelegate.m in Sources */,
+				364B2B06252312230057C47F /* XibTableViewCell.m in Sources */,
+				364B2B10252315950057C47F /* TestTableViewCell1.m in Sources */,
+				364B2AF325230E3E0057C47F /* TestTableViewController.m in Sources */,
+				364B2B22252315B40057C47F /* TestTableViewCell4.m in Sources */,
 				364B2AC625230C0A0057C47F /* main.m in Sources */,
+				364B2AF925230E550057C47F /* TestCollectionViewController.m in Sources */,
 				364B2AB825230C090057C47F /* SceneDelegate.m in Sources */,
+				360A117A25232C6300A9E649 /* TestCollectionViewCell5.m in Sources */,
+				364B2B16252315A30057C47F /* TestTableViewCell2.m in Sources */,
+				360A115B25232BCC00A9E649 /* XibCollectionViewCell.m in Sources */,
+				360A117425232C5900A9E649 /* TestCollectionViewCell4.m in Sources */,
+				360A116E25232C4D00A9E649 /* TestCollectionViewCell3.m in Sources */,
+				364B2B28252315BD0057C47F /* TestTableViewCell5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,14 +533,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestTableOrCollectionViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.tc.TestTableOrCollectionViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,14 +553,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestTableOrCollectionViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.tc.TestTableOrCollectionViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

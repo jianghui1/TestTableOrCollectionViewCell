@@ -7,6 +7,9 @@
 
 #import "ViewController.h"
 
+#import "TestTableViewController.h"
+#import "TestCollectionViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -15,7 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+}
+
+- (IBAction)toTableViewAction:(id)sender {
+    [self.navigationController pushViewController:[TestTableViewController new] animated:YES];
+}
+
+- (IBAction)toCollectionViewAction:(id)sender {
+    [self.navigationController pushViewController:[TestCollectionViewController new] animated:YES];
 }
 
 
